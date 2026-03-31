@@ -27,7 +27,7 @@ layers:
   - C
   - V
   - B
-  - TAB
+  - /
   - '!'
   - N
   - M
@@ -103,7 +103,7 @@ layers:
   - '6'
   - '-'
   - {t: ▽, type: trans}
-  - '&mkp MB3'
+  - A
   - F5
   - F6
   - F7
@@ -115,7 +115,7 @@ layers:
   - F5
   - F11
   - {t: ▽, type: trans}
-  - F6
+  - A
   - F1
   - F2
   - F3
