@@ -112,8 +112,8 @@ layers:
   - '1'
   - '2'
   - '3'
-  - F5
-  - F11
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - A
   - F1
