@@ -16,33 +16,33 @@ layers:
   - D
   - F
   - G
-  - F13
+  - '?'
   - H
   - J
   - K
   - L
-  - ;
-  - {t: Z, h: LEFT SHIFT}
+  - '-'
+  - TAB
   - X
   - C
   - V
   - B
   - F14
-  - F15
+  - '!'
   - N
   - M
   - ','
   - .
-  - /
   - LCTRL
-  - LEFT WIN
+  - LEFT SHIFT
   - LEFT ALT
-  - BACKSPACE
+  - LEFT GUI
+  - {t: LANG ZENKAKUHANKAKU, h: '4'}
   - {t: ENTER, h: '2'}
-  - {t: '&to_layer_0 LANG2', h: '3'}
-  - {t: '&to_layer_0 LANG1', h: '3'}
-  - {t: SPACE, h: '1'}
-  - LEFT ALT
+  - {t: '&to_layer_0 LANG_HIRAGANA', h: '3'}
+  - BACKSPACE
+  - {t: ENTER, h: '1'}
+  - ESCAPE
   '1':
   - '1'
   - '2'
@@ -209,10 +209,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR ALL
   '5':
