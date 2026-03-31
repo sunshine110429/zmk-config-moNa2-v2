@@ -22,12 +22,12 @@ layers:
   - K
   - L
   - '-'
-  - TAB
+  - LEFT WIN
   - X
   - C
   - V
   - B
-  - F14
+  - TAB
   - '!'
   - N
   - M
@@ -35,36 +35,36 @@ layers:
   - .
   - LCTRL
   - LEFT SHIFT
+  - LEFT COMMAND
   - LEFT ALT
-  - LEFT GUI
   - {t: LANG ZENKAKUHANKAKU, h: '4'}
-  - {t: ENTER, h: '2'}
+  - {t: SPACE, h: '2'}
   - {t: '&to_layer_0 LANG_HIRAGANA', h: '3'}
   - BACKSPACE
-  - {t: ENTER, h: '1'}
+  - {t: RET, h: '1'}
   - ESCAPE
   '1':
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - {t: ▽, type: trans}
+  - ;
+  - '&'
+  - '*'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
   - ']'
+  - \
   - {t: ▽, type: trans}
+  - '`'
+  - '"'
+  - '#'
+  - $
+  - '@'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - (
   - )
+  - /
   - {t: ▽, type: trans}
-  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -74,9 +74,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '{'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '}', h: toggle}
   - '|'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
