@@ -301,6 +301,3 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-combos:
-- p: [17, 18, 19, 29, 31]
-  k: A
