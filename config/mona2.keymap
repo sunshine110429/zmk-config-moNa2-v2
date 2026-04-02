@@ -75,19 +75,19 @@
             label = "DIV_MARK";
         };
 
-        div_mac: div_mac {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&text "÷">;
-            label = "DIV_MAC";
-        };
+div_mac: div_mac {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&text "÷">; // Unicode 文字を直接送信
+    label = "DIV_MAC";
+};
 
-        mul_mac: mul_mac {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&text "×">;
-            label = "MUL_MAC";
-        };
+mul_mac: mul_mac {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&text "×">; // Unicode 文字を直接送信
+    label = "MUL_MAC";
+};
 
     };
 
