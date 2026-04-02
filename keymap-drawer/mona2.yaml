@@ -22,18 +22,18 @@ layers:
   - K
   - L
   - '-'
-  - LEFT WIN
+  - TAB
   - X
   - C
   - V
   - B
-  - /
+  - _
   - '!'
   - N
   - M
   - ','
   - .
-  - LCTRL
+  - /
   - LEFT SHIFT
   - LEFT COMMAND
   - LEFT ALT
@@ -65,18 +65,18 @@ layers:
   - K
   - L
   - '-'
-  - LEFT WIN
+  - TAB
   - X
   - C
   - V
   - B
-  - /
+  - _
   - '!'
   - N
   - M
   - ','
   - .
-  - LEFT CONTROL
+  - RIGHT WIN
   - LEFT SHIFT
   - LEFT CONTROL
   - LEFT ALT
