@@ -39,7 +39,7 @@ layers:
   - LEFT ALT
   - {t: LANGUAGE 2, h: '7'}
   - {t: SPACE, h: '3'}
-  - {t: '&bt0 LANGUAGE_1', h: '7'}
+  - {t: '&bt0 LANGUAGE_1', h: '4'}
   - BACKSPACE
   - {t: RET, h: '2'}
   - ESCAPE
@@ -81,8 +81,8 @@ layers:
   - LEFT CONTROL
   - LEFT ALT
   - {t: LANGUAGE 2, h: '7'}
-  - {t: SPACE, h: '3'}
-  - {t: '&bt0 LANGUAGE_1', h: '7'}
+  - {t: SPACE, h: '5'}
+  - {t: '&bt0 LANGUAGE_1', h: '6'}
   - BACKSPACE
   - {t: RET, h: '2'}
   - ESCAPE
@@ -211,7 +211,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -253,7 +253,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -297,7 +297,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
