@@ -119,11 +119,13 @@
         uc_div: unicode_divide {
             compatible = "zmk,behavior-unicode";
             code = <0x00F7>;
+            #binding-cells = <0>; 
         };
 
         uc_mul: unicode_multiply {
             compatible = "zmk,behavior-unicode";
             code = <0x00D7>;
+            #binding-cells = <0>; 
         };
     };
 
