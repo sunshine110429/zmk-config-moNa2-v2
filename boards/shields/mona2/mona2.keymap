@@ -69,6 +69,12 @@
 
             tap-ms = <20>;
         };
+
+        uc_div: unicode_divide {
+            compatible = "zmk,behavior-unicode";
+            code = <0x00F7>;
+        };
+
     };
 
     keymap {
