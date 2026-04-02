@@ -145,8 +145,8 @@ layers:
   - '5'
   - '6'
   - '-'
-  - '&trans <'
-  - '&mul_jp>'
+  - {t: ▽, type: trans}
+  - '&mul_mac'
   - F5
   - F6
   - F7
@@ -157,8 +157,8 @@ layers:
   - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&trans <'
-  - '&div_jp>'
+  - {t: ▽, type: trans}
+  - '&div_mac'
   - F1
   - F2
   - F3
