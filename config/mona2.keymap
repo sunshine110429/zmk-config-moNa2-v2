@@ -75,30 +75,18 @@
             label = "DIV_MARK";
         };
 
-        mul_jp: mul_jp {
+        div_mac: div_mac {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&kp LALT>,
-                <&macro_press>,
-                <&kp N2 &kp N1>,
-                <&macro_press>,
-                <&kp LALT>;
-
-            label = "MUL_JP";
+            bindings = <&text "÷">;
+            label = "DIV_MAC";
         };
 
-        div_jp: div_jp {
+        mul_mac: mul_mac {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&kp LALT>,
-                <&macro_press>,
-                <&kp N2 &kp N4>,
-                <&macro_press>,
-                <&kp LALT>;
-
-            label = "DIV_JP";
+            bindings = <&text "×">;
+            label = "MUL_MAC";
         };
 
     };
@@ -183,8 +171,8 @@
         layer_3 {
             bindings = <
 &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                     &trans   &kp F9  &kp F10  &kp F11  &kp F12
-&trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS            &trans  <&mul_jp>   &kp F5  &kp F6   &kp F7   &kp F8
-&kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans     &trans    &trans  <&div_jp>   &kp F1  &kp F2   &kp F3   &kp F4
+&trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS            &trans  &mul_mac   &kp F5  &kp F6   &kp F7   &kp F8
+&kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans     &trans    &trans  &div_mac   &kp F1  &kp F2   &kp F3   &kp F4
 &trans        &trans        &trans        &trans        &trans     &trans    &trans  &trans                            &trans
             >;
 
