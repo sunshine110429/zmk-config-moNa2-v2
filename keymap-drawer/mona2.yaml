@@ -10,7 +10,7 @@ layers:
   - U
   - I
   - O
-  - {t: P, h: '6'}
+  - P
   - A
   - S
   - D
@@ -21,13 +21,13 @@ layers:
   - J
   - K
   - L
-  - '-'
+  - {t: '-', h: '6'}
   - Z
   - X
   - C
   - V
   - B
-  - TAB
+  - ESCAPE
   - '!'
   - N
   - M
@@ -42,7 +42,7 @@ layers:
   - {t: LANGUAGE 1, h: '4'}
   - BACKSPACE
   - {t: RET, h: '2'}
-  - ESCAPE
+  - TAB
   '1':
   - Q
   - W
@@ -53,7 +53,7 @@ layers:
   - U
   - I
   - O
-  - {t: P, h: '6'}
+  - P
   - A
   - S
   - D
@@ -64,13 +64,13 @@ layers:
   - J
   - K
   - L
-  - '-'
+  - {t: '-', h: '6'}
   - Z
   - X
   - C
   - V
   - B
-  - TAB
+  - ESCAPE
   - '!'
   - N
   - M
@@ -85,7 +85,7 @@ layers:
   - {t: LANGUAGE 1, h: '6'}
   - BACKSPACE
   - {t: RET, h: '2'}
-  - ESCAPE
+  - TAB
   '2':
   - {t: ▽, type: trans}
   - ;
@@ -268,18 +268,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
