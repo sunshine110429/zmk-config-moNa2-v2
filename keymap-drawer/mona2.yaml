@@ -33,7 +33,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - TAB
   - LEFT SHIFT
   - LEFT COMMAND
   - LEFT ALT
@@ -42,7 +42,7 @@ layers:
   - {t: LANGUAGE 1, h: '4'}
   - BACKSPACE
   - {t: RET, h: '2'}
-  - TAB
+  - /
   '1':
   - Q
   - W
