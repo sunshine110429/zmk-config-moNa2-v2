@@ -76,7 +76,7 @@ layers:
   - M
   - ','
   - .
-  - RIGHT WIN
+  - TAB
   - LEFT SHIFT
   - LEFT CONTROL
   - LEFT ALT
@@ -85,7 +85,7 @@ layers:
   - {t: LANGUAGE 1, h: '6'}
   - BACKSPACE
   - {t: RET, h: '2'}
-  - TAB
+  - RIGHT WIN
   '2':
   - {t: ▽, type: trans}
   - ;
