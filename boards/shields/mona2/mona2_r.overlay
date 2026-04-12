@@ -70,7 +70,7 @@
 
     input-processors = <&zip_temp_layer 8 10000>; 
 
-    scroller {
+    scroller_mac {
         layers = <9>;
         input-processors = 
             // <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>,        //X軸とY軸の入れ替え
@@ -79,6 +79,18 @@
             //<&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>,   //スクロールのX軸反転
             <&zip_scroll_scaler 1 12>;                           //スクロール量を1/13倍
     };
+
+    scroller_win {
+        layers = <10>;
+        input-processors = 
+            // <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>,        //X軸とY軸の入れ替え
+            <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,       //X軸反転
+            <&zip_xy_to_scroll_mapper>,                         //スクロールモードに変更
+            <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>,   //スクロールのX軸反転
+            <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,   //スクロールのX軸反転
+            <&zip_scroll_scaler 1 12>;                           //スクロール量を1/13倍
+    };
+
 
 };
 
