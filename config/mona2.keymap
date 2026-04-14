@@ -145,7 +145,7 @@
         layer_2 {
             bindings = <
 &trans  &kp COLON     &kp SEMICOLON  &kp AMPERSAND      &trans                    &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH  &trans
-&trans  &kp ASTERISK  &kp SQT        &kp DOUBLE_QUOTES  &trans            &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH      &trans
+&trans  &kp ASTERISK  &kp SQT        &kp DOUBLE_QUOTES  &trans            &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH      &kp UNDERSCORE
 &trans  &kp HASH      &kp DOLLAR     &kp AT_SIGN        &trans  &trans    &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE       &trans
 &trans  &trans        &trans         &trans             &trans  &trans    &trans  &trans                                                              &trans
             >;
