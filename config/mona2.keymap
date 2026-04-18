@@ -28,7 +28,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&tog_off 1>,
+                <&tog_off 5>,
                 <&macro_wait_time 200>,
                 <&bt BT_SEL 0>,
                 <&macro_wait_time 500>;
@@ -40,11 +40,11 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&tog_off 1>,
+                <&tog_off 5>,
                 <&macro_wait_time 200>,
                 <&bt BT_SEL 1>,
                 <&macro_wait_time 500>,
-                <&tog_on 1>;
+                <&tog_on 5>;
 
             label = "BT3";
         };
@@ -122,21 +122,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W             &kp E         &kp R             &kp T                                             &kp Y      &kp U  &kp I      &kp O    &kp P
-&kp A           &kp S             &kp D         &kp F             &kp G                            &kp QUESTION     &kp H      &kp J  &kp K      &kp L    &lt 9 MINUS
-&kp Z           &kp X             &kp C         &kp V             &kp B        &kp ESCAPE          &kp EXCLAMATION  &kp N      &kp M  &kp COMMA  &kp DOT  &kp TAB
-&kp LEFT_SHIFT  &kp LEFT_COMMAND  &kp LEFT_ALT  &lt 7 LANGUAGE_2  &lt 3 SPACE  &lt 4 LANGUAGE_1    &kp BACKSPACE    &lt 2 RET                             &kp SLASH
-            >;
-
-            sensor-bindings = <&scroll_up_down>;
-        };
-
-        layer_1 {
-            bindings = <
-&kp Q           &kp W             &kp E         &kp R             &kp T                                             &kp Y       &kp U  &kp I      &kp O    &kp P
-&kp A           &kp S             &kp D         &kp F             &kp G                            &kp QUESTION     &kp H       &kp J  &kp K      &kp L    &lt 10 MINUS
-&kp Z           &kp X             &kp C         &kp V             &kp B        &kp ESCAPE          &kp EXCLAMATION  &kp N       &kp M  &kp COMMA  &kp DOT  &kp TAB
-&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 7 LANGUAGE_2  &lt 5 SPACE  &lt 6 LANGUAGE_1    &kp BACKSPACE    &lt 11 RET                             &kp RIGHT_WIN
+&kp Q           &kp W             &kp E         &kp R              &kp T                                             &kp Y      &kp U  &kp I      &kp O    &kp P
+&kp A           &kp S             &kp D         &kp F              &kp G                            &kp QUESTION     &kp H      &kp J  &kp K      &kp L    &lt 4 MINUS
+&kp Z           &kp X             &kp C         &kp V              &kp B        &kp DEL             &kp EXCLAMATION  &kp N      &kp M  &kp COMMA  &kp DOT  &kp TAB
+&kp LEFT_SHIFT  &kp LEFT_COMMAND  &kp LEFT_ALT  &lt 10 LANGUAGE_2  &lt 2 SPACE  &lt 3 LANGUAGE_1    &kp BACKSPACE    &lt 1 RET                             &kp SLASH
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -175,6 +164,37 @@
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
+        SCROLLMAC {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
+            >;
+
+            sensor-bindings = <&scroll_up_down>;
+        };
+
+        layer_1 {
+            bindings = <
+&kp Q           &kp W             &kp E         &kp R              &kp T                                             &kp Y      &kp U  &kp I      &kp O    &kp P
+&kp A           &kp S             &kp D         &kp F              &kp G                            &kp QUESTION     &kp H      &kp J  &kp K      &kp L    &lt 9 MINUS
+&kp Z           &kp X             &kp C         &kp V              &kp B        &kp DEL             &kp EXCLAMATION  &kp N      &kp M  &kp COMMA  &kp DOT  &kp TAB
+&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 10 LANGUAGE_2  &lt 7 SPACE  &lt 8 LANGUAGE_1    &kp BACKSPACE    &lt 6 RET                             &kp RIGHT_WIN
+            >;
+
+            sensor-bindings = <&scroll_up_down>;
+        };
+
+        layer_11 {
+            bindings = <
+&trans  &kp COLON     &kp SEMICOLON  &kp AMPERSAND      &trans                    &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH  &trans
+&trans  &kp ASTERISK  &kp SQT        &kp DOUBLE_QUOTES  &trans            &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH      &kp UNDERSCORE
+&trans  &kp HASH      &kp DOLLAR     &kp AT_SIGN        &trans  &trans    &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE       &trans
+&trans  &trans        &trans         &trans             &trans  &trans    &trans  &trans                                                              &trans
+            >;
+        };
+
         layer_5 {
             bindings = <
 &trans  &kp N7  &kp N8  &kp N9  &kp PLUS                     &trans     &kp F9  &kp F10  &kp F11  &kp F12
@@ -192,6 +212,17 @@
 &kp HOME   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END                  &trans  &trans  &kp LG(LC(LEFT_ARROW))  &kp LG(TAB)  &kp LG(LC(RIGHT_ARROW))  &trans
 &trans     &trans          &trans          &trans           &trans         &trans    &trans  &trans  &trans                  &trans       &trans                   &trans
 &trans     &trans          &trans          &trans           &trans         &trans    &trans  &trans                                                                &trans
+            >;
+
+            sensor-bindings = <&scroll_up_down>;
+        };
+
+        SCROLLWIN {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -217,37 +248,6 @@
             >;
 
             sensor-bindings = <&scroll_up_down>;
-        };
-
-        SCROLLMAC {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
-            >;
-
-            sensor-bindings = <&scroll_up_down>;
-        };
-
-        SCROLLWIN {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
-            >;
-
-            sensor-bindings = <&scroll_up_down>;
-        };
-
-        layer_11 {
-            bindings = <
-&trans  &kp COLON     &kp SEMICOLON  &kp AMPERSAND      &trans                    &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH  &trans
-&trans  &kp ASTERISK  &kp SQT        &kp DOUBLE_QUOTES  &trans            &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH      &kp UNDERSCORE
-&trans  &kp HASH      &kp DOLLAR     &kp AT_SIGN        &trans  &trans    &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE       &trans
-&trans  &trans        &trans         &trans             &trans  &trans    &trans  &trans                                                              &trans
-            >;
         };
     };
 };
