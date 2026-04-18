@@ -68,10 +68,10 @@
     status = "okay";
     device = <&trackball_central>;
 
-    input-processors = <&zip_temp_layer 8 10000>; 
+    input-processors = <&zip_temp_layer 10 10000>; 
 
     scroller_mac {
-        layers = <9>;
+        layers = <4>;
         input-processors = 
             // <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>,        //X軸とY軸の入れ替え
             <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,       //X軸反転
@@ -81,7 +81,7 @@
     };
 
     scroller_win {
-        layers = <10>;
+        layers = <9>;
         input-processors = 
             // <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>,        //X軸とY軸の入れ替え
             <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,       //X軸反転
