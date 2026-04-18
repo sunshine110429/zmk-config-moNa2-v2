@@ -133,7 +133,7 @@
 
         layer_1 {
             bindings = <
-&trans  &kp COLON     &kp SEMICOLON  &kp LCTRL          &trans                           &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH  &trans
+&trans  &kp COLON     &kp SEMICOLON  &kp CARET          &trans                           &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH  &trans
 &trans  &kp ASTERISK  &kp SQT        &kp DOUBLE_QUOTES  &trans                   &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH      &kp UNDERSCORE
 &trans  &kp HASH      &kp DOLLAR     &kp AT_SIGN        &kp AMPERSAND  &trans    &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE       &trans
 &trans  &trans        &trans         &trans             &trans         &trans    &trans  &trans                                                              &trans
@@ -188,7 +188,7 @@
 
         layer_6 {
             bindings = <
-&trans  &kp COLON     &kp SEMICOLON  &kp LCTRL          &trans                           &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH  &trans
+&trans  &kp COLON     &kp SEMICOLON  &kp CARET          &trans                           &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH  &trans
 &trans  &kp ASTERISK  &kp SQT        &kp DOUBLE_QUOTES  &trans                   &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH      &kp UNDERSCORE
 &trans  &kp HASH      &kp DOLLAR     &kp AT_SIGN        &kp AMPERSAND  &trans    &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE       &trans
 &trans  &trans        &trans         &trans             &trans         &trans    &trans  &trans                                                              &trans
