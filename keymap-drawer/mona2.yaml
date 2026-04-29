@@ -260,37 +260,37 @@ layers:
   - {t: ▽, type: trans}
   '6':
   - {t: ▽, type: trans}
-  - ':'
-  - ;
-  - ^
+  - '-'
+  - '='
+  - INTERNATIONAL 3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '['
   - ']'
-  - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '*'
-  - ''''
-  - '"'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - (
-  - )
-  - /
-  - _
-  - {t: ▽, type: trans}
   - '#'
-  - $
-  - '@'
-  - '&'
+  - INTERNATIONAL 1
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+8
+  - Sft+7
+  - Sft+2
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - '|'
+  - Sft+9
+  - Sft+0
+  - INTERNATIONAL 2
+  - Sft+INTERNATIONAL 1
+  - {t: ▽, type: trans}
+  - Sft+3
+  - Sft+4
+  - Sft+2
+  - Sft+6
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+]
+  - Sft+#
+  - Sft+INTERNATIONAL 3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
