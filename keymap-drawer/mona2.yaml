@@ -261,7 +261,7 @@ layers:
   '6':
   - {t: ▽, type: trans}
   - ''''
-  - +
+  - ;
   - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -270,7 +270,7 @@ layers:
   - INTERNATIONAL 3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ':'
+  - Sft+'
   - Sft+7
   - Sft+2
   - {t: ▽, type: trans}
