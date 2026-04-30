@@ -306,7 +306,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - KP EQUAL
+  - Sft+-
   - {t: ▽, type: trans}
   - F9
   - F10
@@ -316,7 +316,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - +
+  - Sft+;
   - {t: ▽, type: trans}
   - '&div_mark'
   - F5
