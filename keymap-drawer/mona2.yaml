@@ -260,17 +260,17 @@ layers:
   - {t: ▽, type: trans}
   '6':
   - {t: ▽, type: trans}
-  - '-'
-  - '='
+  - ''''
+  - +
   - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ']'
   - '#'
-  - INTERNATIONAL 1
+  - INTERNATIONAL 3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+8
+  - ':'
   - Sft+7
   - Sft+2
   - {t: ▽, type: trans}
@@ -278,12 +278,12 @@ layers:
   - {t: ▽, type: trans}
   - Sft+8
   - Sft+9
-  - INTERNATIONAL 2
+  - /
   - Sft+INTERNATIONAL 1
   - {t: ▽, type: trans}
   - Sft+3
   - Sft+4
-  - '@'
+  - '['
   - Sft+6
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
