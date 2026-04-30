@@ -188,10 +188,10 @@
 
         layer_6 {
             bindings = <
-&trans  &kp MINUS   &kp EQUAL   &kp EQUAL    &trans                        &trans  &kp RIGHT_BRACKET      &kp NON_US_HASH      &kp INTERNATIONAL_1      &trans
-&trans  &kp LS(N8)  &kp LS(N7)  &kp LS(N2)   &trans                &trans  &trans  &kp LS(N8)             &kp LS(N9)           &kp INTERNATIONAL_2      &kp LS(INTERNATIONAL_1)
-&trans  &kp LS(N3)  &kp LS(N4)  &kp AT_SIGN  &kp LS(N6)  &trans    &trans  &trans  &kp LS(RIGHT_BRACKET)  &kp LS(NON_US_HASH)  &kp LS(INTERNATIONAL_3)  &trans
-&trans  &trans      &trans      &trans       &trans      &trans    &trans  &trans                                                                       &trans
+&trans  &kp SQT     &kp PLUS    &kp EQUAL   &trans                        &trans  &kp RIGHT_BRACKET      &kp NON_US_HASH      &kp INTERNATIONAL_3      &trans
+&trans  &kp COLON   &kp LS(N7)  &kp LS(N2)  &trans                &trans  &trans  &kp LS(N8)             &kp LS(N9)           &kp SLASH                &kp LS(INTERNATIONAL_1)
+&trans  &kp LS(N3)  &kp LS(N4)  &kp LBKT    &kp LS(N6)  &trans    &trans  &trans  &kp LS(RIGHT_BRACKET)  &kp LS(NON_US_HASH)  &kp LS(INTERNATIONAL_3)  &trans
+&trans  &trans      &trans      &trans      &trans      &trans    &trans  &trans                                                                       &trans
             >;
         };
 
