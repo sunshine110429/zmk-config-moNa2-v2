@@ -133,10 +133,10 @@
 
         layer_1 {
             bindings = <
-&trans    &kp COLON     &kp SEMICOLON  &kp CARET          &trans                    &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH  &trans
-&trans    &kp ASTERISK  &kp SQT        &kp DOUBLE_QUOTES  &trans            &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH      &kp UNDERSCORE
-&kp HASH  &kp DOLLAR    &kp AT_SIGN    &kp AMPERSAND      &trans  &trans    &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE       &trans
-&trans    &trans        &trans         &trans             &trans  &trans    &trans  &trans                                                              &trans
+&trans       &kp COLON     &kp SEMICOLON  &kp CARET          &trans                    &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH  &trans
+&kp PERCENT  &kp ASTERISK  &kp SQT        &kp DOUBLE_QUOTES  &trans            &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH      &kp UNDERSCORE
+&kp HASH     &kp DOLLAR    &kp AT_SIGN    &kp AMPERSAND      &trans  &trans    &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE       &trans
+&trans       &trans        &trans         &trans             &trans  &trans    &trans  &trans                                                              &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
@@ -188,10 +188,10 @@
 
         layer_6 {
             bindings = <
-&trans      &kp SQT      &kp SEMI    &kp EQUAL   &trans                    &trans  &kp RIGHT_BRACKET      &kp NON_US_HASH      &kp INTERNATIONAL_3      &trans
-&trans      &kp LS(SQT)  &kp LS(N7)  &kp LS(N2)  &trans            &trans  &trans  &kp LS(N8)             &kp LS(N9)           &kp SLASH                &kp LS(INTERNATIONAL_1)
-&kp LS(N3)  &kp LS(N4)   &kp LBKT    &kp LS(N6)  &trans  &trans    &trans  &trans  &kp LS(RIGHT_BRACKET)  &kp LS(NON_US_HASH)  &kp LS(INTERNATIONAL_3)  &trans
-&trans      &trans       &trans      &trans      &trans  &trans    &trans  &trans                                                                       &trans
+&trans            &kp SQT      &kp SEMI    &kp EQUAL   &trans                    &trans  &kp RIGHT_BRACKET      &kp NON_US_HASH      &kp INTERNATIONAL_3      &trans
+&kp LS(NUMBER_5)  &kp LS(SQT)  &kp LS(N7)  &kp LS(N2)  &trans            &trans  &trans  &kp LS(N8)             &kp LS(N9)           &kp SLASH                &kp LS(INTERNATIONAL_1)
+&kp LS(N3)        &kp LS(N4)   &kp LBKT    &kp LS(N6)  &trans  &trans    &trans  &trans  &kp LS(RIGHT_BRACKET)  &kp LS(NON_US_HASH)  &kp LS(INTERNATIONAL_3)  &trans
+&trans            &trans       &trans      &trans      &trans  &trans    &trans  &trans                                                                       &trans
             >;
         };
 
