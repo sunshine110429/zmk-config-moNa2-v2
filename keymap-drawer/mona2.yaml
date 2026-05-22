@@ -42,7 +42,7 @@ layers:
   - {t: LANGUAGE 1, h: '3'}
   - BACKSPACE
   - {t: RET, h: '1'}
-  - /
+  - ESCAPE
   '1':
   - {t: ▽, type: trans}
   - ':'
