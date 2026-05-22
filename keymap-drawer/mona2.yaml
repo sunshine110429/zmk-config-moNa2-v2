@@ -54,7 +54,7 @@ layers:
   - ']'
   - \
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '%'
   - '*'
   - ''''
   - '"'
@@ -269,7 +269,7 @@ layers:
   - '#'
   - INTERNATIONAL 3
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+5
   - Sft+'
   - Sft+7
   - Sft+2
