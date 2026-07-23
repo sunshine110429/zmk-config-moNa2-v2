@@ -190,7 +190,7 @@
 &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 11 LANGUAGE_2  &lt 7 SPACE  &lt 8 LANGUAGE_1    &kp BACKSPACE    &lt 6 RET                             &kp RIGHT_WIN
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_invert>; 
         };
 
         layer_6 {
