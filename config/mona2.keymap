@@ -94,13 +94,6 @@
             tap-ms = <20>;
         };
 
-        scroll_invert: mouse_wheel_invert {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
-            tap-ms = <20> ;
-        };
-
         tog_on: toggle_layer_on_only {
             compatible = "zmk,behavior-toggle-layer";
             #binding-cells = <1>;
@@ -157,7 +150,7 @@
 &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans                            &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_right_left>;
         };
 
         layer_3 {
@@ -168,7 +161,7 @@
 &trans     &trans          &trans          &trans           &trans         &trans    &trans  &trans                                                                   &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+            sensor-bindings = <&scroll_right_left>;
         };
 
         SCROLLMAC {
@@ -190,7 +183,7 @@
 &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 11 LANGUAGE_2  &lt 7 SPACE  &lt 8 LANGUAGE_1    &kp BACKSPACE    &lt 6 RET                             &kp RIGHT_WIN
             >;
 
-            sensor-bindings = <&scroll_invert>; 
+            sensor-bindings = <&scroll_up_down>; 
         };
 
         layer_6 {
@@ -200,6 +193,8 @@
 &kp LS(N3)        &kp LS(N4)   &kp LBKT    &kp LS(N6)  &trans  &trans    &trans  &trans  &kp LS(RIGHT_BRACKET)  &kp LS(NON_US_HASH)  &kp LS(INTERNATIONAL_3)  &trans
 &trans            &trans       &trans      &trans      &trans  &trans    &trans  &trans                                                                       &trans
             >;
+
+            sensor-bindings = <&scroll_right_left>;
         };
 
         layer_7 {
@@ -210,7 +205,7 @@
 &trans  &trans  &trans  &trans  &trans             &trans    &trans  &trans                               &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_right_left>;
         };
 
         layer_8 {
@@ -221,7 +216,7 @@
 &trans     &trans          &trans          &trans           &trans         &trans    &trans  &trans                                                                &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_right_left>;
         };
 
         SCROLLWIN {
